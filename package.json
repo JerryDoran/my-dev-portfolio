@@ -9,9 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "bootstrap": "^5.3.2",
+    "bootstrap-icons": "^1.11.1",
+    "boxicons": "^2.1.4",
+    "next": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "next": "latest"
+    "remixicon": "^3.5.0"
   },
   "devDependencies": {
     "eslint": "latest",
