@@ -51,12 +51,6 @@ a {
   transition: color 200ms ease-in-out;
 }
 
-a:hover {
-  color: var(--primary-color);
-  text-decoration: none;
-  cursor: pointer;
-}
-
 h1,
 h2,
 h3,
