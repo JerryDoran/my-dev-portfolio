@@ -77,9 +77,8 @@ export default function Header() {
             initial='initial'
             animate='animate'
           >
-            As a skilled <span>full-stack developer</span>, I am dedicated to
-            turning ideas into innovative web applications and building
-            inspiring business solutions.
+            <span>Sotware developer</span> dedicated to building innovative web
+            applications and inspiring business solutions.
           </motion.h2>
         </div>
         <nav id='navbar' className='navbar'>
