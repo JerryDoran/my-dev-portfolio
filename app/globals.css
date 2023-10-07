@@ -60,3 +60,15 @@ h6,
 p {
   font-family: 'Roboto', 'sans-serif';
 }
+
+section {
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  top: 50vh;
+  bottom: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: ease-in-out 1s;
+  z-index: 2;
+}
