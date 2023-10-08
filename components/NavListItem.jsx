@@ -4,9 +4,9 @@ export default function NavListItems({ navItem, handleNavClick }) {
   return (
     <li>
       <a
-        href={navItem.target}
+        href={`#${navItem.target}`}
         className={`nav-link ${navItem.active ? 'active' : null}`}
-        onClick={() => handleNavClick(navItem._id)}
+        onClick={() => handleNavClick(navItem._id, navItem.target)}
       >
         {navItem.name}
       </a>

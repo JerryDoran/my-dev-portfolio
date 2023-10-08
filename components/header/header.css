@@ -68,34 +68,39 @@
   }
 }
 
+/* Header floating to the top styles */
 #header.header-top {
-  height: 80px;
+  height: 100px;
+  padding: 0 2rem;
   position: fixed;
   left: 0;
   top: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.9);
+  /* background: rgba(0, 0, 0, 0.9); */
 }
 
 #header.header-top h1 {
   margin-right: auto;
-  font-size: 2.5rem;
+  font-size: 2rem;
+  width: max-content;
+}
+
+#header.header-top h2 {
+  display: none;
 }
 
 #header.header-top .container {
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
+  max-width: 1200px;
 }
 
 #header.header-top .navbar {
-  margin: 0;
+  max-width: 1200px;
 }
 
 @media (max-width: 768px) {
-  #header.header-top {
-    height: 60px;
-  }
-
   #header.header-top h1 {
     font-size: 26px;
   }
