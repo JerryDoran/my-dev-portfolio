@@ -71,7 +71,6 @@
 /* Header floating to the top styles */
 #header.header-top {
   height: 100px;
-  padding: 0 2rem;
   position: fixed;
   left: 0;
   top: 0;
@@ -93,7 +92,6 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  max-width: 1200px;
 }
 
 #header.header-top .navbar {
