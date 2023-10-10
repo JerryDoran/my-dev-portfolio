@@ -2,6 +2,7 @@
 import SectionTitle from '@/components/section-title/SectionTitle';
 import './about.css';
 import Image from 'next/image';
+import Counter from '@/components/counter/Counter';
 // import { motion } from 'framer-motion';
 
 // const sectionVariant = {
@@ -32,7 +33,7 @@ export default function About({ reference }) {
       <div className='container about-me'>
         <SectionTitle title='About' subtitle='Learn more about me' />
         <div className='row'>
-          <div className='col-lg-4'>
+          <div className='col-lg-4 col-md-8 image-container'>
             <img
               src='/images/jerryportfolio.png'
               alt='Jerry Doran'
@@ -41,6 +42,24 @@ export default function About({ reference }) {
           </div>
           <div className='col-lg-8 pt-4 pt-lg-0 content'>
             <h3 className='title'>Software Developer</h3>
+            <div className='row'>
+              <div className='col-lg-6'>
+                <ul>
+                  {/* <li className='bio-info'>
+                    <i className='bi bi-chevron-right'></i>{' '}
+                    <strong>Website: </strong>
+                    <span>
+                      <a href='www.jerrydoran.dev'>www.jerrydoran.dev</a>
+                    </span>
+                  </li> */}
+                  <li className='bio-info'>
+                    <i className='bi bi-chevron-right'></i>{' '}
+                    <strong>Location: </strong>
+                    <span>Youngstown, OH</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
             <p className='fst-italic description'>
               I am a self motivated and self driven software engineer with a
               passion for creating software solutions from ideas and perspective
@@ -57,27 +76,10 @@ export default function About({ reference }) {
               to the opportunity to bring my skills and passion to your next
               project.
             </p>
-            <div className='row'>
-              <div className='col-lg-6'>
-                <ul>
-                  <li className='bio-info'>
-                    <i className='bi bi-chevron-right'></i>{' '}
-                    <strong>Website: </strong>
-                    <span>
-                      <a href='www.jerrydoran.dev'>www.jerrydoran.dev</a>
-                    </span>
-                  </li>
-                  <li className='bio-info'>
-                    <i className='bi bi-chevron-right'></i>{' '}
-                    <strong>Location: </strong>
-                    <span>Youngstown, OH</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
           </div>
         </div>
       </div>
+      <Counter />
     </section>
   );
 }
