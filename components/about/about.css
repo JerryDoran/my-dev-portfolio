@@ -20,6 +20,7 @@
   margin-bottom: 20px;
   display: flex;
   align-items: center;
+  color: #aaa;
 }
 
 .about-me .content ul strong {
@@ -37,7 +38,8 @@
   color: var(--primary-color);
 } */
 .description {
-  color: #fff;
+  color: #aaa;
+  text-align: justify;
 }
 
 .bio-info {

@@ -20,7 +20,7 @@ import Counter from '@/components/counter/Counter';
 //   },
 // };
 
-export default function About({ reference }) {
+export default function About({ reference, aboutActive }) {
   return (
     <section
       id='about'
@@ -79,7 +79,7 @@ export default function About({ reference }) {
           </div>
         </div>
       </div>
-      <Counter />
+      <Counter active={aboutActive} />
     </section>
   );
 }

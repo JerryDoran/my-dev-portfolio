@@ -93,7 +93,7 @@ section .container {
 }
 
 .section-title h2 {
-  color: #aaa;
+  color: #fff;
   font-size: 0.9rem;
   font-weight: 500;
   padding: 0;
@@ -114,10 +114,10 @@ section .container {
 .section-title p {
   margin: 0;
   margin: -15px 0 15px 0;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: #fff;
+  color: #aaa;
 }
 
 @media (max-width: 768px) {

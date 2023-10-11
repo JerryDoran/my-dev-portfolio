@@ -21,7 +21,11 @@ const listVariant = {
   },
 };
 
-export default function Navbar({ handleActiveSection, setHeader }) {
+export default function Navbar({
+  handleActiveSection,
+  setHeader,
+  setAboutActive,
+}) {
   const [navList, setNavList] = useState(navListData);
 
   function handleNavClick(id, target) {
@@ -29,6 +33,12 @@ export default function Navbar({ handleActiveSection, setHeader }) {
       setHeader(false);
     } else {
       setHeader(true);
+    }
+
+    if (target === 'about') {
+      setAboutActive(true);
+    } else {
+      setAboutActive(false);
     }
 
     const newNavList = navListData.map((navItem) => {

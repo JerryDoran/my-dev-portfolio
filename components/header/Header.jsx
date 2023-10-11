@@ -36,7 +36,7 @@ const descriptionVariant = {
   },
 };
 
-export default function Header({ reference, activeSection }) {
+export default function Header({ reference, activeSection, setAboutActive }) {
   const [header, setHeader] = useState(false);
 
   return (
@@ -61,7 +61,11 @@ export default function Header({ reference, activeSection }) {
           </motion.h2>
         </div>
         <div className='navbar'>
-          <Navbar handleActiveSection={activeSection} setHeader={setHeader} />
+          <Navbar
+            handleActiveSection={activeSection}
+            setHeader={setHeader}
+            setAboutActive={setAboutActive}
+          />
         </div>
         {/* future social icons if any */}
       </div>

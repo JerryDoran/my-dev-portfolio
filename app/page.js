@@ -10,6 +10,7 @@ import Resume from '@/components/resume/Resume';
 import Services from '@/components/services/Services';
 
 export default function Home() {
+  const [aboutActive, setAboutActive] = useState(false);
   const homeRef = useRef();
   const aboutRef = useRef();
   const resumeRef = useRef();
@@ -63,8 +64,16 @@ export default function Home() {
 
   return (
     <main className=''>
-      <Header reference={homeRef} activeSection={handleActiveSection} />
-      <About reference={aboutRef} activeSection={handleActiveSection} />
+      <Header
+        reference={homeRef}
+        activeSection={handleActiveSection}
+        setAboutActive={setAboutActive}
+      />
+      <About
+        reference={aboutRef}
+        activeSection={handleActiveSection}
+        aboutActive={aboutActive}
+      />
       <Resume reference={resumeRef} activeSection={handleActiveSection} />
       <Services reference={servicesRef} activeSection={handleActiveSection} />
       <Portfolio reference={portfolioRef} activeSection={handleActiveSection} />
