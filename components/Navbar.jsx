@@ -1,6 +1,7 @@
 'use client';
 
 import { navListData } from '@/data/navListData';
+import 'boxicons';
 import { motion } from 'framer-motion';
 
 import NavListItem from '@/components/NavListItem';
@@ -64,6 +65,13 @@ export default function Navbar({
           />
         ))}
       </motion.ul>
+      {/* <box-icon
+        name='menu'
+        type='solid'
+        color='white'
+        size='md'
+        class='hamburger'
+      ></box-icon> */}
     </nav>
   );
 }
