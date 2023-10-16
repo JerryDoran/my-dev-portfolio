@@ -3,6 +3,7 @@ import SectionTitle from '@/components/section-title/SectionTitle';
 import './about.css';
 import Image from 'next/image';
 import Counter from '@/components/counter/Counter';
+import Skills from '@/components/skills/Skills';
 // import { motion } from 'framer-motion';
 
 // const sectionVariant = {
@@ -34,13 +35,16 @@ export default function About({ reference, aboutActive }) {
         <SectionTitle title='About' subtitle='Learn more about me' />
         <div className='row'>
           <div className='col-lg-4 col-md-8 image-container'>
-            <img
+            <Image
+              width={300}
+              height={350}
               src='/images/jerryportfolio.png'
               alt='Jerry Doran'
-              className='image-fluid profile-image'
+              className='profile-image'
+              objectFit='contain'
             />
           </div>
-          <div className='col-lg-8 pt-4 pt-lg-0 content'>
+          <div className='col-lg-8 col-md-12 pt-4 pt-lg-0 content'>
             <h3 className='title'>Software Developer</h3>
             <div className='row'>
               <div className='col-lg-6'>
@@ -80,6 +84,7 @@ export default function About({ reference, aboutActive }) {
         </div>
       </div>
       <Counter active={aboutActive} />
+      <Skills />
     </section>
   );
 }
