@@ -71,13 +71,25 @@ export default function Home() {
       />
       <About
         reference={aboutRef}
-        activeSection={handleActiveSection}
+        // activeSection={handleActiveSection}
         aboutActive={aboutActive}
       />
-      <Resume reference={resumeRef} activeSection={handleActiveSection} />
-      <Services reference={servicesRef} activeSection={handleActiveSection} />
-      <Portfolio reference={portfolioRef} activeSection={handleActiveSection} />
-      <Contact reference={contactRef} activeSection={handleActiveSection} />
+      <Resume
+        reference={resumeRef}
+        // activeSection={handleActiveSection}
+      />
+      <Services
+        reference={servicesRef}
+        // activeSection={handleActiveSection}
+      />
+      <Portfolio
+        reference={portfolioRef}
+        // activeSection={handleActiveSection}
+      />
+      <Contact
+        reference={contactRef}
+        // activeSection={handleActiveSection}
+      />
     </main>
   );
 }

@@ -1,7 +1,7 @@
 'use client';
 
 import { navListData } from '@/data/navListData';
-import 'boxicons';
+// import 'boxicons';
 import { motion } from 'framer-motion';
 
 import NavListItem from '@/components/NavListItem';
@@ -61,7 +61,7 @@ export default function Navbar({
             key={item._id}
             navItem={item}
             handleNavClick={handleNavClick}
-            handleActiveSection={handleActiveSection}
+            // handleActiveSection={handleActiveSection}
           />
         ))}
       </motion.ul>
