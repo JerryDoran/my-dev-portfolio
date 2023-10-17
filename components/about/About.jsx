@@ -5,7 +5,7 @@ import SectionTitle from '@/components/section-title/SectionTitle';
 import './about.css';
 import Image from 'next/image';
 import Counter from '@/components/counter/Counter';
-// import Skills from '@/components/skills/Skills';
+import Skills from '@/components/skills/Skills';
 // import { motion } from 'framer-motion';
 
 // const sectionVariant = {
@@ -86,7 +86,7 @@ export default function About({ reference, aboutActive }) {
         </div>
       </div>
       <Counter active={aboutActive} />
-      {/* <Skills /> */}
+      <Skills />
     </section>
   );
 }
