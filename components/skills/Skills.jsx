@@ -7,9 +7,7 @@ export default function Skills() {
   useEffect(() => {
     const scrollers = document.querySelectorAll('.scroller');
 
-    if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-      addAnimation();
-    }
+    addAnimation();
 
     function addAnimation() {
       scrollers.forEach((scroller) => {
