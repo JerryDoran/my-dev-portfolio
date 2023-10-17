@@ -1,4 +1,10 @@
+'use client';
+
+import { useState } from 'react';
+import SectionTitle from '../section-title/SectionTitle';
 import './services.css';
+import { serviceData } from '@/data/servicesData';
+import ServiceCard from './ServiceCard';
 // import { motion } from 'framer-motion';
 
 // const sectionVariant = {
@@ -17,6 +23,7 @@ import './services.css';
 // };
 
 export default function Services({ reference }) {
+  const [services, setServices] = useState(serviceData);
   return (
     <section
       id='services'
@@ -26,7 +33,14 @@ export default function Services({ reference }) {
       // initial='initial'
       // animate='animate'
     >
-      <h1 className='services-title'>Services</h1>
+      <div className='container'>
+        <SectionTitle title='Services' subtitle='My Services' />
+        <div className='row'>
+          {services.map((service) => (
+            <ServiceCard key={service._id} service={service} />
+          ))}
+        </div>
+      </div>
     </section>
   );
 }

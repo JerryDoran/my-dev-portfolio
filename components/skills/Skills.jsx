@@ -31,8 +31,8 @@ export default function Skills() {
   return (
     <div className='container skills'>
       <h2>My Skills</h2>
-      <div class='scroller' data-direction='left'>
-        <ul class='tag-list scroller-inner'>
+      <div className='scroller' data-direction='left'>
+        <ul className='tag-list scroller-inner'>
           <li>HTML</li>
           <li>CSS</li>
           <li>Javascript</li>
