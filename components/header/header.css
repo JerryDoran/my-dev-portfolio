@@ -58,7 +58,7 @@
     padding: 0 1rem;
   }
   #header h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 
   #header h2 {
@@ -109,31 +109,14 @@
   #header.header-top h1 {
     font-size: 26px;
   }
+
+  #header .navbar ul {
+    flex-wrap: wrap;
+  }
 }
 
 @media (max-width: 500px) {
   /* #header .navbar ul {
     display: none;
   } */
-
-  #header .navbar .hamburger {
-    display: block;
-  }
-
-  #header .container .navbar ul {
-    flex-wrap: wrap;
-    font-size: 13px;
-  }
-
-  #header.header-top .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  #header.header-top .container .navbar ul {
-    flex-wrap: wrap;
-    font-size: 13px;
-  }
 }

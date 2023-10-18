@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 
 import Navbar from '../Navbar';
 import { useState } from 'react';
+import MobileMenu from '../mobile/mobile-menu';
 
 const nameVariant = {
   initial: {
@@ -67,7 +68,7 @@ export default function Header({ reference, activeSection, setAboutActive }) {
             setAboutActive={setAboutActive}
           />
         </div>
-        {/* future social icons if any */}
+        {/* <MobileMenu /> */}
       </div>
     </header>
   );
