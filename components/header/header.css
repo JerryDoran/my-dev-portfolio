@@ -113,6 +113,10 @@
   #header .navbar ul {
     flex-wrap: wrap;
   }
+
+  #header .navbar ul li {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 500px) {
