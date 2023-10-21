@@ -8,7 +8,6 @@ import Header from '@/components/header/Header';
 import Portfolio from '@/components/portfolio/Portfolio';
 import Resume from '@/components/resume/Resume';
 import Services from '@/components/services/Services';
-import './home.css';
 
 export default function Home() {
   const [aboutActive, setAboutActive] = useState(false);
