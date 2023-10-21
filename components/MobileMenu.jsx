@@ -3,7 +3,7 @@
 import { navListData } from '@/data/navListData';
 import { motion } from 'framer-motion';
 
-import NavListItem from '@/components/NavListItem';
+import NavListItemMobile from '@/components/NavListItemMobile';
 import { useState } from 'react';
 
 const listVariant = {
@@ -21,7 +21,7 @@ const listVariant = {
   },
 };
 
-export default function Navbar({
+export default function MobileMenu({
   handleActiveSection,
   setHeader,
   setAboutActive,
@@ -55,14 +55,15 @@ export default function Navbar({
   return (
     <nav id='navbar'>
       <motion.ul variants={listVariant} initial='initial' animate='animate'>
-        {navList.map((item) => (
-          <NavListItem
-            key={item._id}
-            navItem={item}
-            handleNavClick={handleNavClick}
-            // handleActiveSection={handleActiveSection}
-          />
-        ))}
+        {navList.map((item) => {
+          return (
+            <NavListItemMobile
+              key={item._id}
+              navItem={item}
+              handleNavClick={handleNavClick}
+            />
+          );
+        })}
       </motion.ul>
     </nav>
   );

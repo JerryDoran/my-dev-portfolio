@@ -43,7 +43,6 @@ export default function About({ reference, aboutActive }) {
               src='/images/jerryportfolio.png'
               alt='Jerry Doran'
               className='profile-image'
-              objectFit='contain'
             />
           </div>
           <div className='col-lg-8 col-md-12 pt-4 pt-lg-0 content'>
