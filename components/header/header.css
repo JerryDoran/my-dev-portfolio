@@ -185,11 +185,11 @@
   }
 
   #header.header-top .navbar li {
-    margin-right: 1px;
-    color: red;
+    margin: 0;
+    padding: 0;
   }
 
-  #header .navbar a i {
-    font-size: 24px;
+  #header.header-top .navbar ul li {
+    margin-right: 5px;
   }
 }

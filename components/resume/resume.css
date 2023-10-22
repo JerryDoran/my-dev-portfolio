@@ -54,7 +54,7 @@
   position: absolute;
   width: 16px;
   height: 16px;
-  border-radius: 50;
+  border-radius: 50%;
   left: -9px;
   top: 0;
   background: var(--primary-color);

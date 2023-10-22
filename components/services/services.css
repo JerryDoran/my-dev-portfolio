@@ -4,7 +4,7 @@
 
 .services .icon-box {
   text-align: center;
-  background: rgba(204, 204, 204, 0.1);
+  background: rgba(204, 204, 204, 0.12);
   padding: 60px 20px;
   transition: all ease-in-out 0.5s;
 }
