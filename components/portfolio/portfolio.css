@@ -39,9 +39,18 @@
   cursor: pointer;
 }
 
+.portfolio .portfolio-container .image-container {
+  width: 400px;
+  height: 250px;
+}
+
+.portfolio .portfolio-container .image-container .portfolio-image {
+  object-fit: cover;
+}
+
 .portfolio .portfolio-wrapper::before {
   content: '';
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.6);
   position: absolute;
   left: 30px;
   right: 30px;

@@ -1,12 +1,12 @@
-import ecommerce1 from '../public/images/projects/ecommerce-music-app.png';
-import ecommerce2 from '../public/images/projects/ecommerce-apple-app.png';
-import ui1 from '../public/images/projects/ui-design-metaverse.png';
-import ui2 from '../public/images/projects/ui-design-hoobank.png';
-import business1 from '../public/images/projects/business-gym-site.png';
-import business2 from '../public/images/projects/business-rosa.png';
-import business3 from '../public/images/projects/business-crypto-tracker.png';
+import ecommerce1 from '../public/images/projects/ecommerce1.jpg';
+import ecommerce2 from '../public/images/projects/ecommerce2.jpg';
+import ui1 from '../public/images/projects/ui1.jpg';
+import ui2 from '../public/images/projects/ui2.jpg';
+import business1 from '../public/images/projects/business1.jpg';
+import business2 from '../public/images/projects/business2.jpg';
+import business3 from '../public/images/projects/business3.jpg';
 import social1 from '../public/images/projects/social-twitter-app.png';
-import business4 from '../public/images/projects/ui-movie-database.png';
+import business4 from '../public/images/projects/business4.jpg';
 import admin1 from '../public/images/projects/admin-dash-one.png';
 import metaverse2 from '../public/images/projects/metaverse-2.png';
 import metaverse3 from '../public/images/projects/metaverse-3.png';
@@ -29,7 +29,7 @@ import entertainment2 from '../public/images/projects/entertainment-2.png';
 import entertainment3 from '../public/images/projects/entertainment-3.png';
 import entertainment4 from '../public/images/projects/entertainment-4.png';
 import realty1 from '../public/images/projects/realty-1.png';
-import realty2 from '../public/images/projects/realty-2.png';
+import realty2 from '../public/images/projects/realty2.jpg';
 import realty3 from '../public/images/projects/realty-3.png';
 import realty4 from '../public/images/projects/realty-4.png';
 import rosa1 from '../public/images/projects/rosa-1.png';
@@ -44,11 +44,7 @@ import bank1 from '../public/images/projects/bank-1.png';
 import bank2 from '../public/images/projects/bank-2.png';
 import bank3 from '../public/images/projects/bank-3.png';
 import bank4 from '../public/images/projects/bank-4.png';
-import twitter1 from '../public/images/projects/twitter-1.png';
-import twitter2 from '../public/images/projects/twitter-2.png';
-import twitter3 from '../public/images/projects/twitter-3.png';
-import twitter4 from '../public/images/projects/twitter-4.png';
-import beach1 from '../public/images/projects/beach-1.png';
+import beach1 from '../public/images/projects/beach1.jpg';
 import beach2 from '../public/images/projects/beach-2.png';
 import beach3 from '../public/images/projects/beach-3.png';
 import beach4 from '../public/images/projects/beach-4.png';
@@ -225,29 +221,6 @@ export const projects = [
     technologies: ['React', 'CoinGecko API', 'CSS Modules', 'Javascript'],
     demoLink: 'https://crytpotracker.netlify.app/',
     codeLink: 'https://github.com/JerryDoran/crypto-tracker',
-  },
-  {
-    slug: 'twitter-clone',
-    img: social1,
-    category: 'web',
-    title: 'Twitter Clone',
-    description:
-      'A clone of a popular social media app that exhibits attention to detail and design.',
-    image1: twitter1,
-    image2: twitter2,
-    image3: twitter3,
-    image4: twitter4,
-    summary:
-      "The Firebase Twitter Clone is a web application that replicates the functionality of Twitter using Firebase as the backend. Users can create tweets, follow others, view profiles, and search for tweets. Authentication is handled by Firebase Authentication, while Firebase Firestore stores and synchronizes tweet data. The clone allows users to engage in real-time social media interactions while leveraging Firebase's powerful features. With a seamless integration of Firebase services, the project provides an efficient and scalable solution for building a Twitter-like application.",
-    technologies: [
-      'Firebase Auth',
-      'Firestore',
-      'React',
-      'Tailwind CSS',
-      'Javascript',
-    ],
-    demoLink: 'https://next-twitter-clone-tau.vercel.app/',
-    codeLink: 'https://github.com/JerryDoran/next-twitter-clone',
   },
   {
     slug: 'beach-resort',
