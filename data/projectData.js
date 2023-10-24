@@ -5,7 +5,6 @@ import ui2 from '../public/images/projects/ui2.jpg';
 import business1 from '../public/images/projects/business1.jpg';
 import business2 from '../public/images/projects/business2.jpg';
 import business3 from '../public/images/projects/business3.jpg';
-import social1 from '../public/images/projects/social-twitter-app.png';
 import business4 from '../public/images/projects/business4.jpg';
 import admin1 from '../public/images/projects/admin-dash-one.png';
 import metaverse2 from '../public/images/projects/metaverse-2.png';
