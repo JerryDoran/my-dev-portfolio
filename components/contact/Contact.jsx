@@ -1,3 +1,5 @@
+import SectionTitle from '../section-title/SectionTitle';
+import ContactForm from './ContactForm';
 import './contact.css';
 // import { motion } from 'framer-motion';
 
@@ -26,7 +28,19 @@ export default function Contact({ reference }) {
       // initial='initial'
       // animate='animate'
     >
-      <h1 className='contact-title'>Contact</h1>
+      <div className='container'>
+        <SectionTitle title='Contact' subtitle='How can I help?' />
+        <div className='row pt-2'>
+          <div className='col-md-6 d-flex align-items-stretch'>
+            <div className='info-box'>
+              <i className='bx bx-envelope'></i>
+              <h3>Email</h3>
+              <p>jerry-doran@hotmail.com</p>
+            </div>
+          </div>
+        </div>
+        <ContactForm />
+      </div>
     </section>
   );
 }
