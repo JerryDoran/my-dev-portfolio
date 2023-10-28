@@ -2,7 +2,6 @@ import Image from 'next/image';
 
 /* eslint-disable @next/next/no-img-element */
 export default function PortfolioCard({ item }) {
-  console.log(item);
   return (
     <div className='col-lg-4 col-md-6 portfolio-item filter-app'>
       <div className='portfolio-wrapper'>
@@ -27,11 +26,16 @@ export default function PortfolioCard({ item }) {
           <h4>{item.title}</h4>
           <p>{item.description}</p>
           <div className='portfolio-links'>
-            <a href='#' className='details'>
+            {/* <a href='#' className='details'>
               <i className='bx bx-plus'></i>
               details
-            </a>
-            <a href={item.demoLink} rel="noopener noreferrer" target="_blank"  className='link'>
+            </a> */}
+            <a
+              href={item.demoLink}
+              rel='noopener noreferrer'
+              target='_blank'
+              className='link'
+            >
               <i className='bx bx-link'></i>
               demo
             </a>

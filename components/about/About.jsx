@@ -34,7 +34,7 @@ export default function About({ reference, aboutActive }) {
       // animate='animate'
     >
       <div className='container about-me'>
-        <SectionTitle title='About' subtitle='Learn more about me' />
+        <SectionTitle title='About' subtitle='Jerry Doran' />
         <div className='row'>
           <div className='col-lg-4 col-md-8 image-container'>
             <Image

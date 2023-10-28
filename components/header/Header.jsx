@@ -37,6 +37,21 @@ const descriptionVariant = {
   },
 };
 
+const buttonVariant = {
+  initial: {
+    opacity: 0,
+    y: 50,
+  },
+  animate: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.25,
+      delay: 0.5,
+    },
+  },
+};
+
 export default function Header({ reference, activeSection, setAboutActive }) {
   const [header, setHeader] = useState(false);
   const [isDesktop, setIsDesktop] = useState(null);
@@ -74,7 +89,11 @@ export default function Header({ reference, activeSection, setAboutActive }) {
           animate='animate'
           className='title-container'
         >
-          <h1 className='title'>Jerry Doran</h1>
+          {!header ? (
+            <h1 className='title'>Customize Business Solutions</h1>
+          ) : (
+            <h1 className='title'>Doran Software</h1>
+          )}
         </motion.div>
 
         <div className='text-container'>
@@ -83,8 +102,8 @@ export default function Header({ reference, activeSection, setAboutActive }) {
             initial='initial'
             animate='animate'
           >
-            <span>Sotware developer</span> dedicated to building innovative web
-            applications and inspiring business solutions.
+            <span>Sotware development</span> dedicated to building innovative
+            web applications and inspiring business solutions.
           </motion.h2>
         </div>
         <div className='navbar'>
@@ -102,6 +121,16 @@ export default function Header({ reference, activeSection, setAboutActive }) {
             />
           )}
         </div>
+        <motion.div
+          variants={buttonVariant}
+          initial='initial'
+          animate='animate'
+        >
+          <button className='btn mt-4 button'>
+            <i className='bi bi-telephone-fill'></i>
+            Schedule a Call Now
+          </button>
+        </motion.div>
       </div>
     </header>
   );

@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import 'remixicon/fonts/remixicon.css';
 import 'boxicons/css/boxicons.min.css';
+import { Toaster } from 'react-hot-toast';
 
 export const metadata = {
   title: 'My Developer Portfolio',
@@ -12,7 +13,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <body className=''>{children}</body>
+      <body className=''>
+        {children}
+        <Toaster />
+      </body>
     </html>
   );
 }

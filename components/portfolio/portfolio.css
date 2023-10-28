@@ -109,7 +109,7 @@
 
 .portfolio .portfolio-wrapper .portfolio-info p {
   color: lightgray;
-  font-size: 14px;
+  font-size: 16px;
   padding: 0;
   margin: 0;
 }
@@ -121,8 +121,7 @@
 
 .portfolio .portfolio-wrapper .portfolio-links a {
   color: #eee;
-  margin: 0 2px;
-  font-size: 28px;
+  margin: 0 2px;  
   display: inline-block;
   transition: 0.3s;
 }
@@ -153,7 +152,7 @@
 .portfolio .portfolio-wrapper .portfolio-links .link,
 .portfolio .portfolio-wrapper .portfolio-links .details {
   background-color: rgba(255, 255, 255, 0.2);
-  font-size: 12px;
+  font-size: 13px;
   padding: 4px 8px;
   border-radius: 20px;
 }
