@@ -8,6 +8,7 @@ import Header from '@/components/header/Header';
 import Portfolio from '@/components/portfolio/Portfolio';
 import Resume from '@/components/resume/Resume';
 import Services from '@/components/services/Services';
+// import PortfolioDetails from '@/components/portfolio/PortfolioDetails';
 
 export default function Home() {
   const [aboutActive, setAboutActive] = useState(false);
@@ -16,6 +17,7 @@ export default function Home() {
   const resumeRef = useRef();
   const servicesRef = useRef();
   const portfolioRef = useRef();
+  const portfolioDetailsRef = useRef();
   const contactRef = useRef();
 
   const sections = [
@@ -82,10 +84,8 @@ export default function Home() {
         reference={servicesRef}
         // activeSection={handleActiveSection}
       />
-      <Portfolio
-        reference={portfolioRef}
-        // activeSection={handleActiveSection}
-      />
+      <Portfolio reference={portfolioRef} activeSection={handleActiveSection} />
+      {/* <PortfolioDetails reference={portfolioDetailsRef} /> */}
       <Contact
         reference={contactRef}
         // activeSection={handleActiveSection}

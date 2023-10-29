@@ -90,7 +90,7 @@ export default function Header({ reference, activeSection, setAboutActive }) {
           className='title-container'
         >
           {!header ? (
-            <h1 className='title'>Customize Business Solutions</h1>
+            <h1 className='title'>Inspired Solutions</h1>
           ) : (
             <h1 className='title'>Doran Software</h1>
           )}
