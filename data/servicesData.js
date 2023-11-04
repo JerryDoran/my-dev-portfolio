@@ -18,7 +18,7 @@ export const serviceData = [
     icon: 'bi bi-bar-chart',
     name: 'Systems Development',
     description:
-      'Develop projects and solutions that involve database applications, building user interfaces, and website implementation using various technologies.',
+      'Design, test and implement new software applications through the development of customized systems, creation of database systems or third party software.',
   },
   {
     _id: 4,
