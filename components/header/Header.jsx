@@ -6,6 +6,7 @@ import { motion } from 'framer-motion';
 import Navbar from '../Navbar';
 import { useState, useEffect } from 'react';
 import MobileMenu from '../MobileMenu';
+import Link from 'next/link';
 
 const nameVariant = {
   initial: {
@@ -126,10 +127,15 @@ export default function Header({ reference, activeSection, setAboutActive }) {
           initial='initial'
           animate='animate'
         >
-          <button className='btn mt-4 button'>
+          <Link
+            href='mailto:jerry-doran@hotmail.com'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='btn mt-4 button'
+          >
             <i className='bi bi-telephone-fill'></i>
             Schedule a Call Now
-          </button>
+          </Link>
         </motion.div>
       </div>
     </header>
