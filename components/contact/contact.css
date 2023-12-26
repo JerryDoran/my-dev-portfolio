@@ -1,6 +1,6 @@
 .contact .info-box {
   color: #444;
-  padding: 20px;
+  padding: 30px;
   width: 100%;
   background: rgba(255, 255, 255, 0.08);
 }
@@ -31,8 +31,9 @@
 
 /* Contact Form */
 .contact .contact-form {
-  padding: 30px;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  padding: 20px 0;
 }
 
 .contact .contact-form input,
@@ -40,10 +41,11 @@
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.1);
   border: 0;
   transition: all 300ms;
   color: #eee;
+  width: 100%;
 }
 
 .contact .contact-form input:focus,

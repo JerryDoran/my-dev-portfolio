@@ -14,11 +14,10 @@ export default function Resume({ reference }) {
               <p>
                 <em>
                   I am a self-motivated and self-driven software engineer with a
-                  passion for creating software solutions from ideas and
-                  perspective of others. I am constantly learning new skills and
-                  technologies to stay focused on current software development
-                  trends and have many years of experience developing
-                  applications in enterprise settings.
+                  passion for learning new skills and technologies to stay
+                  focused on current software development trends and have many
+                  years of experience developing applications in enterprise
+                  settings.
                 </em>
               </p>
               <p>Contact</p>

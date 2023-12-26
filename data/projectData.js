@@ -47,6 +47,7 @@ import beach1 from '../public/images/projects/beach1.jpg';
 import beach2 from '../public/images/projects/beach-2.png';
 import beach3 from '../public/images/projects/beach-3.png';
 import beach4 from '../public/images/projects/beach-4.png';
+import karena1 from '../public/images/projects/karena1.jpg';
 
 export const projects = [
   {
@@ -238,20 +239,20 @@ export const projects = [
     demoLink: 'https://react-beach-resourt.netlify.app/',
     codeLink: 'https://github.com/JerryDoran/react_beach_resort',
   },
-  // {
-  //   slug: 'admin-dashboard-one',
-  //   img: admin1,
-  //   category: 'analytics',
-  //   title: 'Admin Dashbord One',
-  //   description:
-  //     'Coming soon an admin dashboard tracking app for analyzing your business performance',
-  //   image1: metaverse1,
-  //   image2: metaverse2,
-  //   image3: metaverse3,
-  //   image4: metaverse4,
-  //   summary: 'Summary of Admin Dashboard',
-  //   technologies: ['', '', '', ''],
-  //   demoLink: '',
-  //   codeLink: '',
-  // },
+  {
+    slug: 'mern-estate',
+    img: karena1,
+    category: 'web',
+    title: 'Listing Website',
+    description: 'List your property that showcases beautiful homes for sale.',
+    image1: beach1,
+    image2: beach2,
+    image3: beach3,
+    image4: beach4,
+    summary:
+      'This website features a modern and responsive design, allowing the site to adapt to different devices and screen sizes. The template includes sections for showcasing properties, exploring features, and search capability for selecting the destination for your budget and requirements. It is built using React, making it highly customizable and easy to deploy. The responsive design ensures a seamless browsing experience on various devices, while the use of the React library provides flexibility for customization and interactive functionality.',
+    technologies: ['React', 'Tailwind CSS', 'Javascript', 'NodeJS', 'MongoDB'],
+    demoLink: 'https://mern-estate-dwng.onrender.com',
+    codeLink: 'https://github.com/JerryDoran/karena-estate',
+  },
 ];
